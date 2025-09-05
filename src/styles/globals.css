@@ -29,8 +29,11 @@
   --chart-1: oklch(0.381 0.1113 262.83);
   --chart-2: oklch(0.7737 0.1198 194.28);
   --chart-3: oklch(0.9559 0.0345 194.28);
-  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-4: oklch(0.6591 0.3062 320.95);
   --chart-5: oklch(0.769 0.188 70.08);
+  --chart-6: oklch(0.645 0.246 16.439);
+  --chart-7: oklch(0.488 0.243 264.376);
+  --chart-8: oklch(0.696 0.17 162.48);
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -135,4 +138,17 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.card{
+  @apply bg-white shadow-md relative hover:shadow-lg h-40 w-60 mr-4;
+}
+.card-face{
+  @apply w-full h-full p-8;
+}
+.card-title{
+  @apply flex text-primary text-sm gap-2 font-light mt-3;
+}
+.card-desc{  
+  @apply text-xl text-primary md:text-2xl font-semibold text-center;
 }
