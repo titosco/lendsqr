@@ -152,3 +152,21 @@ body {
 .card-desc{  
   @apply text-xl text-primary md:text-2xl font-semibold text-center;
 }
+.text-oklch-fuchsia2 {
+  color: oklch(0.4987 0.2895 280.12);
+}
+.bg-oklch-fuchsia2 {
+  background-color: oklch(90.388% 0.04153 297.703);
+}
+.text-oklch-fuchsia3 {
+  color: oklch(0.6757 0.1895 32.34);
+}
+.bg-oklch-fuchsia3 {
+  background-color: oklch(90.106% 0.04497 29.807);
+}
+.text-oklch-fuchsia4 {
+  color: oklch(0.6565 0.2349 13.34);
+}
+.bg-oklch-fuchsia4 {
+  background-color: oklch(89.411% 0.0573 1.846);
+}
